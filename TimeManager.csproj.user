@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Controls\SleepCircleControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\AccountDialog\AccountDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddContainerForm\AddContainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddEventForm\AddEventForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddMedicineScheduleForm\AddMedicineScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddRecipeForm\AddRecipeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddRewardForm\AddRewardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddTrackingItemForm\AddTrackingItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AdminPanel\AdminPanelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CalendarView\CalendarView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\EditRewardForm\EditRewardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\EditTrackingItemForm\EditTrackingItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\EventDetailsForm\EventDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FocusModeActiveForm\FocusModeActiveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\HabitStepForm\HabitStepForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\HomeBrowserForm\HomeBrowserDesignView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\HomeBrowserForm\HomeBrowserForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\HomeBrowserForm\HomeBrowserSearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\LoginForm\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MainForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MoveTrackingItemDialog\MoveTrackingItemDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\NotificationsForm\NotificationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PlantEditorForm\PlantEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\QuickTasksForm\QuickTasksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\RecipeDetailsForm\RecipeDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\RedeemedRewardsForm\RedeemedRewardsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ShoppingListForm\ShoppingListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StatisticsView\StatisticsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\TrackingView\TrackingView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

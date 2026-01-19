@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+      <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Ensure reward edit form is compiled (some environments may not pick it up via default globs) -->
+    <Compile Update="Forms\\EditRewardForm\\EditRewardForm.cs" />
+    <Compile Update="Forms\\EditRewardForm\\EditRewardForm.Designer.cs" />
+    <!-- Ensure recipe details form is compiled (keeps designer event handlers resolved) -->
+    <Compile Update="Forms\\RecipeDetailsForm\\RecipeDetailsForm.cs" />
+    <Compile Update="Forms\\RecipeDetailsForm\\RecipeDetailsForm.Designer.cs" />
+  </ItemGroup>
+
+</Project>
+
+
+
+
+
