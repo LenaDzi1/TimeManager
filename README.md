@@ -233,5 +233,8 @@ Projekt akademicki — Politechnika Śląska, Wydział Automatyki, Elektroniki i
 
 Projekt zrealizowany w ramach pracy inżynierskiej.
 
+## Prezentacja programu - film (~20 min)
+
+https://drive.google.com/file/d/1U2nE0n7ophP8BdiaSz1CvJk_iuDKRvZf/view?usp=sharing
 
 
